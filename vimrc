@@ -14,10 +14,6 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-"set smarttab
-"set shiftround
-"set autoindent
-"set smartindent
 
 " make things better
 set encoding=utf-8
@@ -80,8 +76,6 @@ set number
 set wrap
 set textwidth=79
 set formatoptions=qrn1
-"set linebreak
-"set breakat=\ |@-+;:,./?^I
 set colorcolumn=85
 
 " cursor bounce to matching braces
