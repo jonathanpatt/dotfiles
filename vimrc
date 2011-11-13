@@ -144,3 +144,6 @@ autocmd FileType scss setlocal shiftwidth=2 tabstop=2
 
 " preserve file metadata
 set backupcopy=yes
+
+" snipmate settings
+let g:snips_author = 'Jonathan Patt <jonathanpatt@gmail.com>'
