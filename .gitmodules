@@ -58,6 +58,3 @@
 [submodule "bundle/vim-git"]
 	path = bundle/vim-git
 	url = https://github.com/tpope/vim-git.git
-[submodule "bundle/Align.vim"]
-	path = bundle/Align.vim
-	url = https://github.com/vim-scripts/Align.vim.git
