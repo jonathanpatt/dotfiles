@@ -49,3 +49,6 @@
 [submodule "bundle/vim-peepopen"]
 	path = bundle/vim-peepopen
 	url = https://github.com/shemerey/vim-peepopen.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
