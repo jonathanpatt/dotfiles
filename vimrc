@@ -127,6 +127,7 @@ set statusline=%f%m%r%h%w\ \|\ %{&ff}\ \|\ %Y\ \|\ %p%%\ \|\ %L
 set laststatus=2
 
 " php syntax highlighting
+autocmd FileType php set commentstring=//\ %s
 let php_sql_query = 1
 let php_baselib = 1
 let php_htmlInStrings = 1
