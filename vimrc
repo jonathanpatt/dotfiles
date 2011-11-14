@@ -148,3 +148,11 @@ set backupcopy=yes
 
 " snipmate settings
 let g:snips_author = 'Jonathan Patt <jonathanpatt@gmail.com>'
+
+" Tabular mappings
+if exists(":Tabularize")
+    nmap <leader>a= :Tabularize /=<CR>
+    vmap <leader>a= :Tabularize /=<CR>
+    nmap <leader>a: :Tabularize /:\zs/l0l1<CR>
+    vmap <leader>a: :Tabularize /:\zs/l0l1<CR>
+endif
