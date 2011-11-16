@@ -93,9 +93,7 @@ if has('gui_running')
     autocmd WinEnter,BufRead * setlocal cursorline
     autocmd WinEnter,BufRead * setlocal cursorcolumn
 else
-    set t_Co=256
-    runtime! plugin/guicolorscheme.vim
-    GuiColorScheme darkspectrum
+    colorscheme desert
 endif
 
 " font
