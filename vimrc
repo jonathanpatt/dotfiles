@@ -36,6 +36,9 @@ set undofile
 " map leader to comma
 let mapleader = ","
 
+" map F-keys
+map <F2> :NERDTreeToggle<CR>
+
 " improve search
 nnoremap / /\v
 vnoremap / /\v
