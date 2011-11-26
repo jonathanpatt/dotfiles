@@ -1,63 +1,63 @@
 [submodule "bundle/php.vim--Garvin"]
-	path = bundle/php.vim--Garvin
+	path = home/.vim/bundle/php.vim--Garvin
 	url = https://github.com/vim-scripts/php.vim--Garvin.git
 [submodule "bundle/ack.vim"]
-	path = bundle/ack.vim
+	path = home/.vim/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "bundle/snipmate.vim"]
-	path = bundle/snipmate.vim
+	path = home/.vim/bundle/snipmate.vim
 	url = https://github.com/msanders/snipmate.vim.git
 [submodule "bundle/html5-syntax.vim"]
-	path = bundle/html5-syntax.vim
+	path = home/.vim/bundle/html5-syntax.vim
 	url = https://github.com/othree/html5-syntax.vim.git
 [submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
+	path = home/.vim/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+	path = home/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
 [submodule "bundle/tagbar"]
-	path = bundle/tagbar
+	path = home/.vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "bundle/vim-abolish"]
-	path = bundle/vim-abolish
+	path = home/.vim/bundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
 [submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
+	path = home/.vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-commentary"]
-	path = bundle/vim-commentary
+	path = home/.vim/bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
 [submodule "bundle/vim-css-color"]
-	path = bundle/vim-css-color
+	path = home/.vim/bundle/vim-css-color
 	url = https://github.com/skammer/vim-css-color.git
 [submodule "bundle/vim-css3-syntax"]
-	path = bundle/vim-css3-syntax
+	path = home/.vim/bundle/vim-css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax.git
 [submodule "bundle/vim-less"]
-	path = bundle/vim-less
+	path = home/.vim/bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
 [submodule "bundle/vim-repeat"]
-	path = bundle/vim-repeat
+	path = home/.vim/bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/YankRing.vim"]
-	path = bundle/YankRing.vim
+	path = home/.vim/bundle/YankRing.vim
 	url = https://github.com/vim-scripts/YankRing.vim.git
 [submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+	path = home/.vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/vim-peepopen"]
-	path = bundle/vim-peepopen
+	path = home/.vim/bundle/vim-peepopen
 	url = https://github.com/shemerey/vim-peepopen.git
 [submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+	path = home/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
+	path = home/.vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
 [submodule "bundle/vim-git"]
-	path = bundle/vim-git
+	path = home/.vim/bundle/vim-git
 	url = https://github.com/tpope/vim-git.git
 [submodule "bundle/tabular"]
-	path = bundle/tabular
+	path = home/.vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
