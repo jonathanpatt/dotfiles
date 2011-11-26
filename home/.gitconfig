@@ -1,0 +1,22 @@
+[user]
+	name = Jonathan Patt
+	email = jonathanpatt@gmail.com
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+	excludesfile = /Users/jonathan/.gitignore
+	quotepath = false
+	editor = /usr/bin/vim
+[difftool "sourcetree"]
+	cmd = /Applications/Kaleidoscope.app/Contents/MacOS/ksdiff -w \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
