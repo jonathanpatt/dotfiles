@@ -1,3 +1,6 @@
+# Todo alias
+alias todo="todo.sh"
+
 # Enable colors in Terminal
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
