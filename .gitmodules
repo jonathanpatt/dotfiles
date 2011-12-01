@@ -4,9 +4,6 @@
 [submodule "bundle/ack.vim"]
 	path = home/.vim/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "bundle/snipmate.vim"]
-	path = home/.vim/bundle/snipmate.vim
-	url = https://github.com/jonathanpatt/snipmate.vim
 [submodule "bundle/html5-syntax.vim"]
 	path = home/.vim/bundle/html5-syntax.vim
 	url = https://github.com/othree/html5-syntax.vim.git
@@ -61,6 +58,3 @@
 [submodule "bundle/tabular"]
 	path = home/.vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule "snipmate.vim"]
-	path = snipmate.vim
-	url = https://github.com/jonathanpatt/snipmate.vim
