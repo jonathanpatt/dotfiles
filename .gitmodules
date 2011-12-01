@@ -58,3 +58,6 @@
 [submodule "bundle/tabular"]
 	path = home/.vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "home/.vim/bundle/snipmate.vim"]
+	path = home/.vim/bundle/snipmate.vim
+	url = https://github.com/jonathanpatt/snipmate.vim
