@@ -15,3 +15,6 @@ function _throttleon {
 }
 alias throttleon=_throttleon
 alias throttleoff='sudo ipfw delete 1'
+
+# Get character count of HTML/XML file, sans tag content
+alias wc_book="set -e 's/<[^>]*>//g' $1 | wc -m"
