@@ -6,6 +6,9 @@ export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
 # Throttle internet connection on specified port
+# Example:
+#           throttleon 75 80
+# Throttles port 80 to 75kbps
 function _throttleon {
     sudo ipfw pipe 1 config bw $1KBytes/s
     sudo ipfw add 1 pipe 1 src-port $2
