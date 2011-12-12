@@ -18,3 +18,7 @@ alias throttleoff='sudo ipfw delete 1'
 
 # Get character count of HTML/XML file, sans tag content
 alias wc_book="set -e 's/<[^>]*>//g' $1 | wc -m"
+
+# History search
+bind '"\e[A":history-search-backward'
+bind '"\e[B":history-search-forward'
