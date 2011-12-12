@@ -61,3 +61,6 @@
 [submodule "home/.vim/bundle/snipmate.vim"]
 	path = home/.vim/bundle/snipmate.vim
 	url = https://github.com/jonathanpatt/snipmate.vim
+[submodule "home/.vim/bundle/vim-pathogen"]
+	path = home/.vim/bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen

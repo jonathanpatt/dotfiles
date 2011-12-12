@@ -1,4 +1,5 @@
 " load pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 filetype off
 call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
