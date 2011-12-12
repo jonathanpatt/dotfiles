@@ -22,3 +22,7 @@ alias wc_book="set -e 's/<[^>]*>//g' $1 | wc -m"
 # History search
 bind '"\e[A":history-search-backward'
 bind '"\e[B":history-search-forward'
+
+# Find duplicates below current directory
+alias find_dup="find * -exec basename {} \; | \
+    sed 's/\(.*\)\..*/\1/' | sort | uniq -d"
