@@ -159,3 +159,6 @@ vmap <leader>a: :Tabularize /:\zs/l0l1<CR>
 
 " change yankring file location
 let g:yankring_history_file = '.yankring_history'
+
+" shortcut to select pasted text
+nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
