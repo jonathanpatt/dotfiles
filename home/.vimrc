@@ -55,7 +55,7 @@ vnoremap <tab> %
 
 " show invisibles
 set list
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬,nbsp:·
 
 " disable arrow keys
 nnoremap <up> <nop>
