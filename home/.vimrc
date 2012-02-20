@@ -10,6 +10,9 @@ set nocompatible
 " prevent security exploit
 set modelines=0
 
+" disable code folding
+set nofoldenable
+
 " use indents of 4 spaces, and copy down lines
 set tabstop=4
 set shiftwidth=4
