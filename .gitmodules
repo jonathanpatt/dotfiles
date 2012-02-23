@@ -76,3 +76,6 @@
 [submodule "home/.vim/bundle/syntastic"]
 	path = home/.vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "home/.vim/bundle/vim-matchit"]
+	path = home/.vim/bundle/vim-matchit
+	url = git://github.com/mirell/vim-matchit.git
