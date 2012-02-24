@@ -90,7 +90,7 @@ set showmatch
 
 " colors
 if has('gui_running')
-    colorscheme solarized
+    colorscheme wombat
     set background=dark
 
     " highlighting
