@@ -49,7 +49,7 @@ hi vimFold		guibg=#000000 guifg=#FFFFFF gui=bold
 hi FoldColumn	guibg=#000000 guifg=#FFFFFF gui=bold
 
 hi LineNr		guifg=#535353 guibg=#202020
-hi NonText		guifg=#535353 guibg=#202020
+hi NonText		guifg=#535353 guibg=none
 hi Folded		guifg=#535353 guibg=#202020 gui=bold
 hi FoldeColumn  guifg=#535353 guibg=#202020 gui=bold
 "hi VertSplit	guibg=#ffffff guifg=#ffffff gui=none
@@ -64,7 +64,7 @@ hi Visual		guifg=#FFFFFF guibg=#3465a4 gui=none
 hi VisualNOS    guifg=#FFFFFF guibg=#204a87 gui=none
 hi IncSearch	guibg=#FFFFFF guifg=#ef5939
 hi Search		guibg=#ad7fa8 guifg=#FFFFFF
-hi SpecialKey	guifg=#8ae234
+hi SpecialKey	guifg=#8ae234 guibg=none
 
 hi Title		guifg=#ef5939
 hi WarningMsg	guifg=#ef5939
