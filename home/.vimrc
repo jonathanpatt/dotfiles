@@ -165,3 +165,6 @@ let g:yankring_history_file = '.yankring_history'
 
 " shortcut to select pasted text
 nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
+
+" disable phpcs in syntastic
+let g:syntastic_phpcs_disable=1
