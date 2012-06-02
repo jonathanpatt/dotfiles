@@ -79,3 +79,6 @@
 [submodule "home/.vim/bundle/vim-matchit"]
 	path = home/.vim/bundle/vim-matchit
 	url = git://github.com/mirell/vim-matchit.git
+[submodule "home/.vim/bundle/phtmlSwitch-vim"]
+	path = home/.vim/bundle/phtmlSwitch-vim
+	url = git://github.com/pzich/phtmlSwitch-vim.git
