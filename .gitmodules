@@ -82,3 +82,6 @@
 [submodule "home/.vim/bundle/phtmlSwitch-vim"]
 	path = home/.vim/bundle/phtmlSwitch-vim
 	url = git://github.com/pzich/phtmlSwitch-vim.git
+[submodule "home/.vim/bundle/rainbow_parentheses.vim"]
+	path = home/.vim/bundle/rainbow_parentheses.vim
+	url = git://github.com/kien/rainbow_parentheses.vim.git
