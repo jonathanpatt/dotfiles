@@ -177,3 +177,6 @@ au Syntax * RainbowParenthesesLoadBraces
 
 filetype plugin on
 set ofu=syntaxcomplete#Complete
+
+" supertab
+let g:SuperTabDefaultCompletionType = "context"
