@@ -28,3 +28,8 @@ alias find_dup="find * -exec basename {} \; | \
     sed 's/\(.*\)\..*/\1/' | sort | uniq -d"
 
 alias xmlb2html="python /Users/jonathan/Documents/proj/personal/code/Scripts/xmlb2html/xmlb2html.py $1"
+
+alias g="git"
+alias gs="git status"
+alias b="brew"
+alias bu="brew update"
