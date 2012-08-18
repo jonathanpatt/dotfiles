@@ -37,9 +37,6 @@
 [submodule "bundle/vim-surround"]
 	path = home/.vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "bundle/vim-peepopen"]
-	path = home/.vim/bundle/vim-peepopen
-	url = https://github.com/shemerey/vim-peepopen.git
 [submodule "bundle/vim-fugitive"]
 	path = home/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
