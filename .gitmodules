@@ -7,9 +7,6 @@
 [submodule "bundle/html5-syntax.vim"]
 	path = home/.vim/bundle/html5-syntax.vim
 	url = https://github.com/othree/html5-syntax.vim.git
-[submodule "bundle/nerdcommenter"]
-	path = home/.vim/bundle/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter
 [submodule "bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
