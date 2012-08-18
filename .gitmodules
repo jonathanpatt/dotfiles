@@ -4,9 +4,6 @@
 [submodule "bundle/ack.vim"]
 	path = home/.vim/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "bundle/html5-syntax.vim"]
-	path = home/.vim/bundle/html5-syntax.vim
-	url = https://github.com/othree/html5-syntax.vim.git
 [submodule "bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
