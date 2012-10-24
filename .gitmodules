@@ -88,3 +88,6 @@
 [submodule "home/.vim/bundle/php.vim"]
 	path = home/.vim/bundle/php.vim
 	url = git://github.com/StanAngeloff/php.vim.git
+[submodule "home/.vim/bundle/vim-slim"]
+	path = home/.vim/bundle/vim-slim
+	url = git://github.com/bbommarito/vim-slim.git
