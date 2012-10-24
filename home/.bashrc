@@ -1,3 +1,7 @@
+# Rails environment variables
+export RACK_ENV=development
+export PORT=5000
+
 # Todo alias
 alias todo="todo.sh"
 
