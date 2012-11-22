@@ -25,3 +25,5 @@
     unstage = reset HEAD
     uncommit = reset --soft HEAD^
     amend = commit --amend
+[push]
+	default = simple
