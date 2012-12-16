@@ -34,7 +34,6 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-set relativenumber
 set undofile
 
 " map leader to comma
@@ -84,9 +83,6 @@ set wrap
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
-
-" cursor bounce to matching braces
-set showmatch
 
 " colors
 colorscheme koala
