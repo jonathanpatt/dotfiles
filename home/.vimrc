@@ -89,15 +89,12 @@ set colorcolumn=85
 set showmatch
 
 " colors
-if has('gui_running')
-    colorscheme wombat
-    set background=dark
+colorscheme koala
 
-    " highlighting
+" highlighting
+if has('gui_running')
     autocmd WinEnter,BufRead * setlocal cursorline
     autocmd WinEnter,BufRead * setlocal cursorcolumn
-else
-    colorscheme desert
 endif
 
 " font
