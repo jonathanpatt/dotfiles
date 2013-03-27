@@ -1,7 +1,7 @@
 " load pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 filetype off
-call pathogen#runtime_append_all_bundles()
+call pathogen#incubate()
 filetype plugin indent on
 
 " disable vi compatibility
