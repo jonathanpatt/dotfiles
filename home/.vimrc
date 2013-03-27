@@ -121,7 +121,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " statusline
-set statusline=%f%m%r%h%w\ \|\ %{&ff}\ \|\ %Y\ \|\ %p%%\ \|\ %L\%=%{fugitive#statusline()}
+set statusline=%f%m%r%h%w\ \|\ %{&ff}\ \|\ %Y\ \|\ %p%%\ \|\ %c%V\ \|\ %L\%=%{fugitive#statusline()}
 set laststatus=2
 
 " php syntax highlighting
