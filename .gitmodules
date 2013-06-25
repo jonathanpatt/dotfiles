@@ -54,19 +54,19 @@
 	url = https://github.com/bingaman/vim-sparkup.git
 [submodule "home/.vim/bundle/syntastic"]
 	path = home/.vim/bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
+	url = https://github.com/scrooloose/syntastic.git
 [submodule "home/.vim/bundle/vim-matchit"]
 	path = home/.vim/bundle/vim-matchit
-	url = git://github.com/tsaleh/vim-matchit.git
+	url = https://github.com/tsaleh/vim-matchit.git
 [submodule "home/.vim/bundle/phtmlSwitch-vim"]
 	path = home/.vim/bundle/phtmlSwitch-vim
-	url = git://github.com/pzich/phtmlSwitch-vim.git
+	url = https://github.com/pzich/phtmlSwitch-vim.git
 [submodule "home/.vim/bundle/rainbow_parentheses.vim"]
 	path = home/.vim/bundle/rainbow_parentheses.vim
-	url = git://github.com/kien/rainbow_parentheses.vim.git
+	url = https://github.com/kien/rainbow_parentheses.vim.git
 [submodule "home/.vim/bundle/vim-snipmate"]
 	path = home/.vim/bundle/vim-snipmate
-	url = git://github.com/garbas/vim-snipmate.git
+	url = https://github.com/garbas/vim-snipmate.git
 [submodule "home/.vim/bundle/tlib_vim"]
 	path = home/.vim/bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
@@ -81,19 +81,19 @@
 	url = https://github.com/ervandew/supertab
 [submodule "home/.vim/bundle/vim-ragtag"]
 	path = home/.vim/bundle/vim-ragtag
-	url = git://github.com/tpope/vim-ragtag.git
+	url = https://github.com/tpope/vim-ragtag.git
 [submodule "home/.vim/bundle/html5.vim"]
 	path = home/.vim/bundle/html5.vim
-	url = git://github.com/othree/html5.vim.git
+	url = https://github.com/othree/html5.vim.git
 [submodule "home/.vim/bundle/php.vim"]
 	path = home/.vim/bundle/php.vim
-	url = git://github.com/StanAngeloff/php.vim.git
+	url = https://github.com/StanAngeloff/php.vim.git
 [submodule "home/.vim/bundle/vim-koala"]
 	path = home/.vim/bundle/vim-koala
-	url = git@github.com:jonathanpatt/vim-koala.git
+	url = https://github.com/jonathanpatt/vim-koala.git
 [submodule "home/.vim/bundle/vim-ledger"]
 	path = home/.vim/bundle/vim-ledger
-	url = git://github.com/ledger/vim-ledger.git
+	url = https://github.com/ledger/vim-ledger.git
 [submodule "home/.vim/bundle/vim-gnupg"]
 	path = home/.vim/bundle/vim-gnupg
 	url = https://github.com/jamessan/vim-gnupg
