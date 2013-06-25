@@ -94,3 +94,6 @@
 [submodule "home/.vim/bundle/vim-ledger"]
 	path = home/.vim/bundle/vim-ledger
 	url = git://github.com/ledger/vim-ledger.git
+[submodule "home/.vim/bundle/vim-gnupg"]
+	path = home/.vim/bundle/vim-gnupg
+	url = https://github.com/jamessan/vim-gnupg
