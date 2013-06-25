@@ -40,3 +40,6 @@ alias b="brew"
 alias bu="brew update"
 
 alias yt2mp3="youtube-dl --extract-audio --audio-format=mp3 -t"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
