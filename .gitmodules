@@ -73,9 +73,9 @@
 [submodule "home/.vim/bundle/vim-addon-mw-utils"]
 	path = home/.vim/bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "home/.vim/bundle/snipmate-snippets"]
-	path = home/.vim/bundle/snipmate-snippets
-	url = https://github.com/honza/snipmate-snippets.git
+[submodule "home/.vim/bundle/vim-snippets"]
+	path = home/.vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets
 [submodule "home/.vim/bundle/supertab"]
 	path = home/.vim/bundle/supertab
 	url = https://github.com/ervandew/supertab
