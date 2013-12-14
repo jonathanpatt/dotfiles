@@ -1,6 +1,7 @@
 # Rails environment variables
 export RACK_ENV=development
 export PORT=5000
+export DYLD_FALLBACK_LIBRARY_PATH=/Applications/Postgres.app/Contents/MacOS/lib:$DYLD_LIBRARY_PATH
 
 # Todo alias
 alias todo="todo.sh"
