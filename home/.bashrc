@@ -10,6 +10,11 @@ alias todo="todo.sh"
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
+# Enable 256 colors in xterm
+if [ -n "$DISPLAY" -a "$TERM" == "xterm" ]; then
+    export TERM=xterm-256color
+fi
+
 # Throttle internet connection on specified port
 # Example:
 #           throttleon 75 80
