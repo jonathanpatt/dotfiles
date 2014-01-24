@@ -94,7 +94,11 @@ if has('gui_running')
 endif
 
 " font
-set guifont=Inconsolata-dz:h14
+if has("gui_gtk2")
+    set guifont=Inconsolata-dz\ 10
+elseif has("gui_macvim")
+    set guifont=Inconsolata-dz:h14
+end
 
 " run file with PHP CLI (CTRL-M)
 :autocmd FileType php noremap <C-M> :w!<CR>:!/usr/bin/php '%'<CR>
