@@ -5,7 +5,7 @@
 	ui = auto
 [core]
 	autocrlf = input
-	excludesfile = /Users/jonathan/.gitignore
+	excludesfile = ~/.gitignore
 	quotepath = false
 	editor = /usr/bin/vim
 [difftool "sourcetree"]
