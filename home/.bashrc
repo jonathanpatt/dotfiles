@@ -66,3 +66,8 @@ fi
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Import local .bashrc file if it exists
+if [ -f ~/.bashrc_local ]; then
+    . ~/.bashrc_local
+fi
