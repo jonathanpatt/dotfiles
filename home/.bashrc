@@ -1,9 +1,6 @@
 # Rails environment variables
 export DYLD_FALLBACK_LIBRARY_PATH=/Applications/Postgres.app/Contents/MacOS/lib:$DYLD_LIBRARY_PATH
 
-# Todo alias
-alias todo="todo.sh"
-
 # Enable colors in Terminal
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
