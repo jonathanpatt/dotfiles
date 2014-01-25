@@ -1,3 +1,6 @@
+# Set uname variable
+platform=`uname`
+
 # Initialize rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
@@ -70,4 +73,15 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Import local .bashrc file if it exists
 if [ -f ~/.bashrc_local ]; then
     . ~/.bashrc_local
+fi
+
+# Import platform-specific .bashrc files if they exist
+if [[ $platform == 'Darwin' ]]; then
+    if [ -f ~/.bashrc_osx ]; then
+        . ~/.bashrc_osx
+    fi
+elif [[ $platform == 'Linux' ]]; then
+    if [ -f ~/.bashrc_linux ]; then
+        . ~/.bashrc_linux
+    fi
 fi
