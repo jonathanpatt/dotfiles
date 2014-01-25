@@ -1,3 +1,6 @@
+# Initialize rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 # Rails environment variables
 export DYLD_FALLBACK_LIBRARY_PATH=/Applications/Postgres.app/Contents/MacOS/lib:$DYLD_LIBRARY_PATH
 
