@@ -4,6 +4,11 @@ platform=`uname`
 # Initialize rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+# Add heroku to path
+if which heroku > /dev/null; then
+    export PATH="/usr/local/heroku/bin:$PATH"
+fi
+
 # Enable 256 colors in xterm
 if [ -n "$DISPLAY" -a "$TERM" == "xterm" ]; then
     export TERM=xterm-256color
@@ -32,8 +37,6 @@ if which youtube-dl > /dev/null; then
     alias yt2mp3="youtube-dl --extract-audio --audio-format=mp3 -t"
 fi
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 # Import local .bashrc file if it exists
 if [ -f ~/.bashrc_local ]; then
