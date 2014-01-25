@@ -25,10 +25,6 @@ bind '"\e[B":history-search-forward'
 alias find_dup="find * -exec basename {} \; | \
     sed 's/\(.*\)\..*/\1/' | sort | uniq -d"
 
-if [ -f $HOME/Documents/proj/personal/code/Scripts/xmlb2html/xmlb2html.py ]; then
-    alias xmlb2html="python $HOME/Documents/proj/personal/code/Scripts/xmlb2html/xmlb2html.py $1"
-fi
-
 alias g="git"
 alias gs="git status"
 
