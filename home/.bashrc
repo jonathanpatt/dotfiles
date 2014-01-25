@@ -1,6 +1,17 @@
 # Initialize rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+# Initialize homebrew
+if which brew > /dev/null; then
+    PATH=/usr/local/bin:$PATH
+    PATH=/usr/local/sbin:$PATH
+    PATH=/usr/local/share/python:$PATH
+
+    if [ -f `brew --prefix`/etc/bash_completion ]; then
+        . `brew --prefix`/etc/bash_completion
+    fi
+fi
+
 # Rails environment variables
 export DYLD_FALLBACK_LIBRARY_PATH=/Applications/Postgres.app/Contents/MacOS/lib:$DYLD_LIBRARY_PATH
 
