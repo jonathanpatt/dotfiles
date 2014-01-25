@@ -25,6 +25,7 @@ bind '"\e[B":history-search-forward'
 alias find_dup="find * -exec basename {} \; | \
     sed 's/\(.*\)\..*/\1/' | sort | uniq -d"
 
+# Add shortcuts for commonly used commands
 alias g="git"
 alias gs="git status"
 
@@ -32,7 +33,6 @@ alias gs="git status"
 if which youtube-dl > /dev/null; then
     alias yt2mp3="youtube-dl --extract-audio --audio-format=mp3 -t"
 fi
-
 
 # Import local .bashrc file if it exists
 if [ -f ~/.bashrc_local ]; then
