@@ -43,7 +43,10 @@ if which brew > /dev/null; then
     alias bu="brew update"
 fi
 
-alias yt2mp3="youtube-dl --extract-audio --audio-format=mp3 -t"
+# Download video and convert to MP3 file
+if which youtube-dl > /dev/null; then
+    alias yt2mp3="youtube-dl --extract-audio --audio-format=mp3 -t"
+fi
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
