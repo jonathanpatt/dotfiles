@@ -36,8 +36,12 @@ alias xmlb2html="python /Users/jonathan/Documents/proj/personal/code/Scripts/xml
 
 alias g="git"
 alias gs="git status"
-alias b="brew"
-alias bu="brew update"
+
+# Homebrew shortcuts
+if which brew > /dev/null; then
+    alias b="brew"
+    alias bu="brew update"
+fi
 
 alias yt2mp3="youtube-dl --extract-audio --audio-format=mp3 -t"
 
