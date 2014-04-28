@@ -57,7 +57,7 @@
 	url = https://github.com/scrooloose/syntastic.git
 [submodule "home/.vim/bundle/vim-matchit"]
 	path = home/.vim/bundle/vim-matchit
-	url = https://github.com/tsaleh/vim-matchit.git
+	url = https://github.com/vim-scripts/matchit.zip
 [submodule "home/.vim/bundle/phtmlSwitch-vim"]
 	path = home/.vim/bundle/phtmlSwitch-vim
 	url = https://github.com/pzich/phtmlSwitch-vim.git
