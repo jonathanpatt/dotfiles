@@ -177,3 +177,6 @@ set ofu=syntaxcomplete#Complete
 
 " supertab
 let g:SuperTabDefaultCompletionType = "context"
+
+" .prawn should be treated as ruby
+autocmd BufNewFile,BufRead *.prawn set syntax=ruby
