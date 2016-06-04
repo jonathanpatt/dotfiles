@@ -9,6 +9,8 @@ if which brew > /dev/null; then
 
     alias b="brew"
     alias bu="brew update"
+
+    export PATH="$(brew --prefix sqlite)/bin:$PATH"
 fi
 
 # Enable colors in Terminal
