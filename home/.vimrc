@@ -157,6 +157,10 @@ vmap <leader>a= :Tabularize /=<CR>
 nmap <leader>a: :Tabularize /:\zs/l0l1<CR>
 vmap <leader>a: :Tabularize /:\zs/l0l1<CR>
 
+" Commentary mapping
+nmap \\ <Plug>Commentary
+nmap \\\ <Plug>CommentaryLine
+
 " change yankring file location
 let g:yankring_history_file = '.yankring_history'
 
